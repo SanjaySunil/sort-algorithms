@@ -1,7 +1,7 @@
 export type bubbleSort = (arr: number[]) => number[];
 /**
  * @param {Array} arr - The array to sort.
- * @return {Array} arr - The sorted array.
+ * @return The sorted array.
  */
 export const bubbleSort : bubbleSort = (arr) => {
     let len = arr.length;
